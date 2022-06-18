@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .registrationform {
+            background: darkseagreen;
+            padding: 20px 0px 2px 415px;
+        }
+
+        .para {
+            background-color: rgb(225, 215, 215);
+            font-weight: bold;
+        }
+
+        .reg {
+            background-color: rebeccapurple;
+            color: red;
+            text-align: center;
+            padding: 15px 15px 0px 15px;
+            height: 55px;
+            /* width: 161px; */
+            /* border: 2px solid green; */
+            border-top: 5px solid black;
+            border-bottom: 5px solid yellow;
+
+            border-top-left-radius: 45px;
+            border-bottom-right-radius: 45px;
+        }
+
+        .navbar {
+            background: black;
+            border-radius: 35px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 15px 15px;
+        }
+
+        .navbar li a {
+            color: wheat;
+            padding: 25px 5px 0px 45px;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover {
+            /* background-color: coral; */
+            color: brown;
+
+        }
+
+        .Search {
+            float: right;
+            padding: 15px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid palegreen;
+            border-radius: 15px;
+            padding: auto;
+            width: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+
+                <li><a href="http://youtube.com" target="Youtube">Home</a></li>
+                <li> <a href="http://facebook.com" target="facebook">Service</a></li>
+                <li><a href="http://gmail.com" target="Gmail">Contact Us</a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="linkedin">Enquiry</a></li>
+                <div class="Search">
+                    <input type="text" name="search" id="search" placeholder="Search here">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="reg">Registraton Form</h1>
+    <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam tempore, explicabo culpa
+        non a laboriosam
+        error eligendi, laudantium, porro aliquam accusamus facilis? Unde odit veritatis laborum error beatae quam!5
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore saepe velit voluptatem modi sit
+        dignissimos repudiandae quasi facilis voluptates odio deserunt quod placeat magnam quo commodi illo aliquid,
+        perferendis cumque consequuntur explicabo quia, ducimus aut! Fuga inventore commodi placeat nobis in sunt
+        reiciendis hic.</p>
+    <div>
+
+
+        <form class="registrationform">
+            <div>
+                Name: <input type="text" name="myName"><br><br>
+            </div>
+            <div>
+                Email: <input type="text" name="myEmail"><br><br>
+            </div>
+            <div>
+                Mob no: <input type="number" name="myEmail"><br><br>
+                <input type="date" name="" id=""><br><br>
+            </div>
+            <div>
+                Eligibility <input type="checkbox" name="" id="">
+            </div>
+
+            <div>
+                Gender: Male <input type="radio" name="myGender" id="">Femaile <input type="radio" name="myGender"
+                    id="">
+                Other <input type="radio" name="myGender" id="">
+            </div>
+            <div>
+                <label for="name">Book List</label>
+                <select name="Book" id="name">
+                    <option value="Ma">Math</option>
+                    <option value="Sce">Science</option>
+                    <option value="Sce">Enghlish</option>
+                    <option value="Sce">Hindi</option>
+                    <option value="Sce">Sanskrit</option>
+                    <option value="Sce">soc.science</option>
+                    <option value="Sce">Adv.Math</option>
+                    <option value="Sce">Optinal Paper</option>
+
+                </select>
+            </div>
+            <div>
+                <h4 style="color: black;" p="0">Comments and Issue</h4> <textarea name="myText" id="" cols="60"
+                    rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Click for submit">
+                <input type="reset" value="Click For Reset">
+            </div>
+
+        </form>
+
+
+        <img src="https://source.unsplash.com/1349x500/?school" alt="" srcset="">
+
+    </div>
+</body>
+
+</html>
